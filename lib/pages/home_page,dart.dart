@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:p_app/utils/const.dart';
+import 'package:p_app/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
-  final int days = 30;
-  final String name = "Codepur";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catalog App"),
+        title: const Text("Catalog App"),
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to $days days of flutter by $name"),
+          child: Text("My App"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: const appdrawer(),
     );
   }
 }

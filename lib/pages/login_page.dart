@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:p_app/utils/const.dart';
-import 'package:google_fonts/google_fonts.dart';
-
 import '../utils/routes.dart';
-//import 'package:p_app/values';
+
 
 
 class LoginPage extends StatefulWidget {
